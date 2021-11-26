@@ -19,11 +19,11 @@
             ?>
 			<div class="text-input-wrapper">
 				<label for="usuario">Seu Login:</label>
-				<input type="text"  name="usuario" id="">
+				<input type="text"  name="usuario">
 			</div>
 			<div class="">
 				<label for="senha">Sua Senha:</label>
-				<input type="password" class="" name="senha" id="">
+				<input type="password" name="senha">
 			</div>
 			<div class="">
 				<button type="submit" class="enviar">Acessar</button>

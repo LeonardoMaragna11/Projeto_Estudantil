@@ -51,14 +51,24 @@ label{
     background-color: rgb(29, 8, 107);
 }
 input:focus-visible{
-    /* display: block;
+    display: block;
     width: 200px;
     height: 35px;
-    border-bottom: 1px rgb(29, 8, 107) solid;
+    border: white solid 1px;
+    border-bottom: 1px rgb(49, 10, 190) solid;
     margin-bottom: 30px;
-    font-size: 16px; */
-    content: none;
-    width: 205px;
+    font-size: 16px;
+    border: none;  /*white solid 1px;*/
+}
+input:focus{
+    display: block;
+    width: 200px;
+    height: 35px;
+    
+    border-bottom: 1px rgb(49, 10, 190) solid;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: none;  /*white solid 1px;*/
 }
 .informacao{
     color: red;
