@@ -41,7 +41,7 @@ label{
     width: 210px;
     height: 40px;
     background-color: rgb(49, 10, 190);
-    border: white solid 1px;
+    border: rgb(49, 10, 190);
     border-radius: 10px;
     color: white;
     font-size: 16px;
@@ -49,26 +49,26 @@ label{
 }
 .enviar:hover{
     background-color: rgb(29, 8, 107);
+    outline: auto;
 }
 input:focus-visible{
-    display: block;
+    outline: none;
+    /* display: block;
     width: 200px;
     height: 35px;
     border: white solid 1px;
     border-bottom: 1px rgb(49, 10, 190) solid;
     margin-bottom: 30px;
     font-size: 16px;
-    border: none;  /*white solid 1px;*/
+    border: none;  white solid 1px; */
 }
 input:focus{
     display: block;
-    width: 200px;
+    width: 210px;
     height: 35px;
-    
     border-bottom: 1px rgb(49, 10, 190) solid;
     margin-bottom: 30px;
     font-size: 16px;
-    border: none;  /*white solid 1px;*/
 }
 .informacao{
     color: red;
