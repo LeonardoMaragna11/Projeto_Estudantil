@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="menu_estilo.css">
 </head>
 <body>
-    <?php  if($_SESSION['usuario']['id']==1){   ?>
+    <?php  if($_SESSION['usuario']['nivel_us']==1){   ?>
             
 
     <?php  }else{?>

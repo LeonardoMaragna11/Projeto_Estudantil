@@ -16,6 +16,7 @@
         if($campo = $res->fetch(PDO::FETCH_ASSOC)){
             $_SESSION['usuario']['id'] = $campo["cod_us"];
             $_SESSION['usuario']['nome'] = $campo["nome_us"];
+            $_SESSION['usuario']['nivel'] = $campo["nivel_us"];
             header("Location: menu.php");
             if(isset($_SESSION['erro']['informacao'])){
                 unset($_SESSION['erro']['informacao']);
