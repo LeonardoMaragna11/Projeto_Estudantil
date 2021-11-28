@@ -7,13 +7,12 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vh;
-    height: 100vh;
     background-image: linear-gradient(rgb(49, 10, 190),rgb(36, 36, 36));
     justify-content: center;
     display: flex;
     margin: auto;
     align-items: center;
+    min-height: 700px;
 }
 .login{
     background-color: white;
@@ -32,6 +31,7 @@ input{
     border-bottom: 1px rgb(49, 10, 190) solid;
     margin-bottom: 30px;
     font-size: 16px;
+    transition: width 0.5s;
 }
 label{
     color: rgb(49, 10, 190) ;

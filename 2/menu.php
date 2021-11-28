@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php  if($_SESSION['usuario']['id']==1){   ?>
-            <p>Chegou</p>
+            
 
     <?php  }else{?>
         <p>Nivel baixo</p>
