@@ -22,7 +22,7 @@
                 unset($_SESSION['erro']['informacao']);
             }
         }else{
-            $_SESSION['erro']['informacao'] ="<div class='informacao'>Usuario ou senha errados</div>";
+            $_SESSION['erro']['informacao'] ="<div class='informacao'><p>Usuario ou senha errados</p></div>";
             $_SESSION['erro']['inputerro'] = 'inputerro';
             header("Location: index.php");
         }
